@@ -1,4 +1,5 @@
 import { ExternalLink } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 function App() {
   const buildUrl = () => {
@@ -22,6 +23,11 @@ function App() {
   };
 
   return (
+    <>
+    <Helmet>
+      <title>Let's Play!</title>
+      <meta name="description" content="Let's play a dare game and show your fiends you care!" /> 
+    </Helmet>
     <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 flex items-center justify-center p-4">
       <div className="relative group">
         {/* Animated background effect */}
@@ -53,6 +59,7 @@ function App() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 
